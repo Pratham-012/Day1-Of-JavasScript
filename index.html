@@ -6,11 +6,40 @@
     <title>Document</title>
 </head>
 <body >
-    <h1 align="center" >This is your PIcode</h1>
-    <div style="display: flex; justify-content: center; align-items: center; height: 100wh; width: 100vw;">
-        <button onclick="document.getElementById('bulb').src='on.gif'">Turn On The Bulb</button>
-        <img src="off.gif" alt="bulb" id="bulb">
-        <button onclick="document.getElementById('bulb').src='off.gif'">Turn On The Bulb</button>
+    <h1 align="center" >What Javascript Can Do</h1>
+<div>
+    <div>
+        <h2 align="center">JavaScript can change the value of HTML attribute</h2>
+        <div style="display: flex; justify-content: center; align-items: center; height: 100wh; width: 100vw; gap: 20px;">
+            <button onclick="document.getElementById('bulb').src='on.gif'">Turn On The Bulb</button>
+            <img src="off.gif" alt="bulb" id="bulb">
+            <button onclick="document.getElementById('bulb').src='off.gif'">Turn On The Bulb</button>
+        </div>
     </div>
+    <div>
+        <h2 align="center">JavaScript can change HTML style</h2>
+        <div style="display: flex; justify-content: center; align-items: center; height: 100wh; width: 100vw; gap: 20px;">
+            <button onclick="document.getElementById('demo1').style.color='#DA8359'">Mohe Rang de</button>
+            <h1 id="demo1">Pratham Parashar</h1>
+            <button onclick="document.getElementById('demo1').style.color='#555'">Be Rang Si H Badi Zindgi</button>  
+        </div>
+    </div>
+    <div>
+        <h2 align="center">JavaScript can hide adn show HTML elements</h2>
+        <div style="display: flex; justify-content: center; align-items: center; height: 100wh; width: 100vw; gap: 20px;">
+            <button onclick="document.getElementById('demo2').style.display='none'"> Mr. India</button>
+            <img src="yoda.png" alt="" height="10%" width="10%" id="demo2">
+            <button onclick="document.getElementById('demo2').style.display='block'">Cheep Dapak Dam</button>
+        </div>
+    </div>
+    <div>
+        <h2 align="center">JavaScript can change the HTML content</h2>
+        <div style="display: flex; flex-flow: column; justify-content: center; align-items: center; height: 100wh; width: 100vw; gap: 20px;">
+            <h4 id="demo3">This is me!</h4>
+            <button onclick="document.getElementById('demo3').innerHTML='No! This is you'">No!</button>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
